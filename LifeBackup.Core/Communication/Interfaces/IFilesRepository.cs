@@ -60,6 +60,6 @@ namespace LifeBackup.Core.Communication.Interfaces
         /// <param name="bucketName"></param>
         /// <param name="fileName"></param>
         /// <returns></returns>
-        Task<GetJsonObjectResponse> GetJsonObject(string bucketName, string fileName),
+        Task<GetJsonObjectResponse> GetJsonObject(string bucketName, string fileName);
     }
 }
